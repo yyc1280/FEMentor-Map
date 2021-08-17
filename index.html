@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Frontend Mentor | IP Address Tracker</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>IP Address Tracker</h1>
+      <div class="search">
+        <input
+          id="search"
+          type="text"
+          placeholder="Search for any IP address or domain"
+        />
+        <div class="arrow">
+          <img src="./images/icon-arrow.svg" alt="" />
+        </div>
+      </div>
+      <div class="results">
+        <div class="result">
+          <p class="grey">IP Address</p>
+          <p class="black" id="ip"></p>
+        </div>
+        <div class="line"></div>
+        <div class="result">
+          <p class="grey">Location</p>
+          <p class="black" id="location"></p>
+        </div>
+        <div class="line"></div>
+
+        <div class="result">
+          <p class="grey">Timezone</p>
+          <p class="black" id="timezone"></p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="result">
+          <p class="grey">ISP</p>
+          <p class="black" id="isp"></p>
+        </div>
+      </div>
+    </header>
+    <div id="map"></div>
+
+    <!-- add offset value dynamically using the API -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">fz</a>.
+    </div> -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSMqGhmmcAXOXTMGHOiENk7QEd7PGokSU"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
