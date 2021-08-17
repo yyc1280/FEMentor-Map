@@ -120,12 +120,14 @@ body header .results {
   border-radius: 15px;
   background-color: white;
   width: 80%;
-  height: 55%;
+  height: 57%;
   min-height: 120px;
   position: absolute;
   bottom: 0;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
+  -webkit-box-shadow: 0 1px 5px -3px black;
+          box-shadow: 0 1px 5px -3px black;
 }
 
 body header .results .line {

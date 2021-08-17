@@ -78,11 +78,12 @@ body {
       border-radius: 15px;
       background-color: white;
       width: 80%;
-      height: 55%;
+      height: 57%;
       min-height: 120px;
       position: absolute;
       bottom: 0;
       transform: translateY(50%);
+      box-shadow: 0 1px 5px -3px black;
       .line {
         height: 45%;
         border-left: 1px solid rgb(206, 204, 204);
