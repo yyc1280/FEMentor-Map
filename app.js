@@ -17,7 +17,7 @@ function IPInit() {
       )
 
       initMap(res.location.lat, res.location.lng)
-      searchInput.value = res.ip
+      //   searchInput.value = res.ip
     })
 }
 

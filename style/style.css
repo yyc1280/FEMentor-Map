@@ -39,9 +39,8 @@ body header {
 }
 
 body header h1 {
-  font-size: 1.5rem;
   font-weight: 500;
-  margin-top: 15px;
+  margin-top: 2%;
   color: white;
 }
 
@@ -53,8 +52,8 @@ body header .search {
   display: -ms-flexbox;
   display: flex;
   width: 40%;
-  height: 45px;
-  margin-top: 15px;
+  height: 50px;
+  margin-top: 2%;
 }
 
 body header .search input {
@@ -119,7 +118,7 @@ body header .results {
   z-index: 5;
   border-radius: 15px;
   background-color: white;
-  width: 80%;
+  width: 75%;
   height: 57%;
   min-height: 120px;
   position: absolute;
